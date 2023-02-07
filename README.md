@@ -11,3 +11,4 @@
 | 패턴 | 감자 보러가기 >___< | 코드 |
 |--|--|--|
 |[생성] 싱글톤 패턴 (Singleton) | [🥔 싱글톤 패턴 구현해보기](https://didu-story.tistory.com/405) | [Code](https://github.com/deslog/awesome-swift/tree/main/DesignPattern/DesignPattern/Patterns/Singleton)|
+| MVC패턴과 MVVM패턴 | [🥔 MVC로 구현된 코드를 MVVM으로 바꿔보기](https://didu-story.tistory.com/407)| [Code](https://github.com/deslog/awesome-swift/tree/main/DesignPattern/DesignPattern/Patterns)|
