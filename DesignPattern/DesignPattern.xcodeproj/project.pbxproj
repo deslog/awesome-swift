@@ -18,6 +18,9 @@
 		3805172E2990EAD6002F7748 /* MySingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3805172D2990EAD6002F7748 /* MySingletonViewController.swift */; };
 		380517322991FE85002F7748 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380517312991FE85002F7748 /* MVCViewController.swift */; };
 		380517342991FE98002F7748 /* MVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380517332991FE98002F7748 /* MVCTableViewCell.swift */; };
+		3805173629923C34002F7748 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3805173529923C34002F7748 /* MVVMViewController.swift */; };
+		3805173829923C3D002F7748 /* MVVMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3805173729923C3D002F7748 /* MVVMTableViewCell.swift */; };
+		3805173B29923D0D002F7748 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3805173A29923D0D002F7748 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		3805172D2990EAD6002F7748 /* MySingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewController.swift; sourceTree = "<group>"; };
 		380517312991FE85002F7748 /* MVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
 		380517332991FE98002F7748 /* MVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCTableViewCell.swift; sourceTree = "<group>"; };
+		3805173529923C34002F7748 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
+		3805173729923C3D002F7748 /* MVVMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTableViewCell.swift; sourceTree = "<group>"; };
+		3805173A29923D0D002F7748 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +199,9 @@
 		3805173029910EAD002F7748 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				3805173A29923D0D002F7748 /* ViewModel.swift */,
+				3805173529923C34002F7748 /* MVVMViewController.swift */,
+				3805173729923C3D002F7748 /* MVVMTableViewCell.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -328,10 +337,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				380517342991FE98002F7748 /* MVCTableViewCell.swift in Sources */,
+				3805173B29923D0D002F7748 /* ViewModel.swift in Sources */,
 				380517322991FE85002F7748 /* MVCViewController.swift in Sources */,
+				3805173629923C34002F7748 /* MVVMViewController.swift in Sources */,
 				380516F32990E934002F7748 /* AppDelegate.swift in Sources */,
 				380517292990EA7B002F7748 /* MySingleton.swift in Sources */,
 				3805172E2990EAD6002F7748 /* MySingletonViewController.swift in Sources */,
+				3805173829923C3D002F7748 /* MVVMTableViewCell.swift in Sources */,
 				380516F52990E934002F7748 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
