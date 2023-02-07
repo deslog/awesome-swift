@@ -67,7 +67,6 @@ class MVVMViewController: UIViewController {
     }
 
     fileprivate func setBindings() {
-
         // 데이터에 대한 바인딩
         viewModel.$tempArr.sink{ (updatedList: [String]) in
             self.tempArr = updatedList
