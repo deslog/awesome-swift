@@ -16,6 +16,8 @@
 		380517162990E935002F7748 /* DesignPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380517152990E935002F7748 /* DesignPatternUITestsLaunchTests.swift */; };
 		380517292990EA7B002F7748 /* MySingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380517282990EA7B002F7748 /* MySingleton.swift */; };
 		3805172E2990EAD6002F7748 /* MySingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3805172D2990EAD6002F7748 /* MySingletonViewController.swift */; };
+		380517322991FE85002F7748 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380517312991FE85002F7748 /* MVCViewController.swift */; };
+		380517342991FE98002F7748 /* MVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380517332991FE98002F7748 /* MVCTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		380517152990E935002F7748 /* DesignPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		380517282990EA7B002F7748 /* MySingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingleton.swift; sourceTree = "<group>"; };
 		3805172D2990EAD6002F7748 /* MySingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewController.swift; sourceTree = "<group>"; };
+		380517312991FE85002F7748 /* MVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
+		380517332991FE98002F7748 /* MVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,8 @@
 		380517262990EA53002F7748 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				3805173029910EAD002F7748 /* MVVM */,
+				3805172F29910EA3002F7748 /* MVC */,
 				380517272990EA61002F7748 /* Singleton */,
 			);
 			path = Patterns;
@@ -173,6 +179,22 @@
 				3805172D2990EAD6002F7748 /* MySingletonViewController.swift */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		3805172F29910EA3002F7748 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				380517312991FE85002F7748 /* MVCViewController.swift */,
+				380517332991FE98002F7748 /* MVCTableViewCell.swift */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		3805173029910EAD002F7748 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +327,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380517342991FE98002F7748 /* MVCTableViewCell.swift in Sources */,
+				380517322991FE85002F7748 /* MVCViewController.swift in Sources */,
 				380516F32990E934002F7748 /* AppDelegate.swift in Sources */,
 				380517292990EA7B002F7748 /* MySingleton.swift in Sources */,
 				3805172E2990EAD6002F7748 /* MySingletonViewController.swift in Sources */,
@@ -489,6 +513,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jisoo.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -516,6 +541,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jisoo.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
